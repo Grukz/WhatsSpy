@@ -1,0 +1,24 @@
+WhatsSpy - trace los movimientos de un usuario WhatsApp
+WhatsSpy es una aplicación orientado a la web que rastrea cada movimiento de quien quiera seguir. Esta aplicación es de configuración como una prueba de concepto que Whatsapp se rompe en términos de privacidad. Una vez que he configurar esta aplicación se puede realizar un seguimiento de los usuarios que desea seguir en Whatsapp. Una vez que se está ejecutando se realiza un seguimiento de las siguientes actividades:
+En línea / fuera de línea de estado (incluso con opciones de privacidad ponen a "nadie")
+Fotos de perfil
+La configuración de privacidad
+Los mensajes de estado
+Requisitos
+requisitos de favoritos:
+Secundaria cuenta Whatsapp (numero de teléfono que no utiliza Whatsapp)
+Arraigado teléfono Android o iPhone con Jailbreak o el conocimiento de PHP
+Servidor / RP _ que funciona 24/7
+Nginx o Apache con PHP con PDO (php5-pgsql instalado) (no se puede alojar en webhoster sencilla, necesita bash)
+PostgreSQL
+WhatsSpy Pública requiere una cuenta de Whatsapp secundaria . Una vez que se inicia el rastreador, usted no será capaz de recibir cualquier mensaje de más de Whatsapp para este numero de teléfono. Usted puede tratar de registrar una Whatsapp no utilizado del número de teléfono , por ejemplo con este script o simplemente comprar una tarjeta SIM 5 euro y utilizar este numero de teléfono para el rastreador.
+Para el seguidor funcione es necesario un secreto que se recupera desde el teléfono o el script de registro mencionado anteriormente. En caso de registro de teléfono que necesita un iPhone con jailbreak o Android arraigada dispositivo con el fin 
+de obtener el secreto.
+Los usuarios de iPhone con jailbreak: Se pueden recuperar usando este script .
+Teléfonos Android arraigadas pueden utilizar el siguiente APK para recuperar el secreto.
+Con el fin de recuperar el scecret es necesario seguir estos pasos:
+Inserte su (nueva) de la tarjeta SIM secundaria en el teléfono y arrancar hacia arriba.
+Volver a instalar WhatsApp en su teléfono y que se active mediante el nuevo numero de teléfono.
+Utilizar el APK (Android) o el guión (iPhone) para recuperar el secreto WhatsApp. Escribir este secreto abajo, que se requiere más adelante.
+Insertar su tarjeta SIM normal y volver a instalar WhatsApp para el uso normal.
+Descargar: https://gitlab.maikel.pro/maikeldus/WhatsSpy-Public
